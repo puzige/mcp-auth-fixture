@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/health", "destination": "/api/health" },
+    { "source": "/events", "destination": "/api/events" },
+    { "source": "/mode", "destination": "/api/mode" },
+    { "source": "/reset", "destination": "/api/reset" },
+    { "source": "/mcp", "destination": "/api/mcp" }
+  ]
+}

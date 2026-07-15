@@ -1,0 +1,14 @@
+{
+  "name": "mcp-auth-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple MCP auth fixture for Vercel (API key + username/password)",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start:local": "node server.mjs"
+  }
+}
